@@ -7,4 +7,4 @@
 
 <h2>Alterações no front-end:</h2>
 <p>A partir da versão 8 do Angular não podemos mais utilizar o comando map, alterei os métodos do arquivo de serviço.</p>
-<p>A partir da versão 8 é necessário importar o ReactiveFormsModule, favor revisar o componente <b>principal</b></p>
+<p>A partir da versão 8 é necessário importar o ReactiveFormsModule, favor revisar o componente <b>principal</b>.</p>
