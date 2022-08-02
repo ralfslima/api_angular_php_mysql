@@ -1,0 +1,21 @@
+<form [formGroup]="formulario">
+    <input type="text" placeholder="Curso" id="nomeCurso" name="nomeCurso" formControlName="nomeCurso" />
+    <input type="number" placeholder="Valor" id="valorCurso" name="valorCurso" formControlName="valorCurso" />
+    <input type="button" value="Cadastrar" (click)="cadastrar()" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Curso</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let v of vetor">
+            <td>{{v.nomeCurso}}</td>
+            <td>{{v.valorCurso}}</td>
+        </tr>
+    </tbody>
+</table>
